@@ -1,0 +1,63 @@
+body{
+    margin: 50px;
+}
+.navigation{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    gap: 0 5px;
+}
+.boite1{
+width: 20%;
+height: fit-content;
+background-color: blue;
+text-align: center;
+color: white;
+border-radius: 15px;
+flex-grow: 1;
+}
+.boite2{
+width: 20%;
+height: fit-content;
+background-color: red;
+text-align: center;
+color: white;
+border-radius: 15px;
+flex-grow: 2;
+}
+.boite3{
+height: fit-content;
+width: 20%;
+background-color: blue;
+text-align: center;
+color: white;
+border-radius: 15px;
+flex-grow: 1;
+}
+.interm{
+    margin-top: 40px;
+    margin-bottom: 40px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    font-weight: bold;
+    font-size: 40px;
+
+}
+.images{
+    flex-direction: row;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-wrap: wrap; 
+    flex-grow:;
+}
+
+.load{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    border-radius: 15px;
+    background-color: blue;
+    color: white;
+}
